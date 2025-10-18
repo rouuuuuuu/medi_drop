@@ -70,8 +70,5 @@ flutter run
 
 ---
 
-## License
 
-This project is licensed under **MIT License** – see the [LICENSE](LICENSE) file for details.
 
----
