@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "medidrop"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "medidrop-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
